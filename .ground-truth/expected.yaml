@@ -1,0 +1,10 @@
+id: P21-E03
+repository: aci-gt-p21-oidc-resource
+visibility: public
+stage: P2
+rule: P2.1
+kind: experiment
+atomic_variable: "job 请求 OIDC token"
+expected_status: REACHABLE
+setup: AUTO_FILES
+configuration_state: COMPLETE
